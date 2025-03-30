@@ -9,3 +9,5 @@ double factorial(int n);
 int gcd(int a, int b);
 int lcm(int a, int b);
 int generateRandomNumber(int min, int max);
+int modulus(int a, int b);
+

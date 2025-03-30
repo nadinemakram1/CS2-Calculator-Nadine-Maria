@@ -1,3 +1,4 @@
+
 #include "Calculator.h"
 #include <iostream>
 #include <cstdlib>
@@ -48,3 +49,6 @@ int lcm(int a, int b) {
 int generateRandomNumber (int min, int max) {
     return (min + (rand() % (max - min + 1)));
 }
+int modulus(int a, int b) {
+ return a % b;
+ }
